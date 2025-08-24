@@ -25,5 +25,5 @@ def solvecap(image_path, model_path="capmodel.h5", min_conf=0.5):
             result += charlist[idx]
     return result
 
-result = solvecap("temp_3388.png")
+result = solvecap("image.png")
 print("Predicted CAPTCHA:", result)
